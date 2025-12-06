@@ -1,2 +1,2 @@
 # webPort
-POrtfolio Website using React and tailwind
+Portfolio Website using React and tailwind
