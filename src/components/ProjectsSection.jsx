@@ -3,15 +3,25 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Bookmark Manager",
+    description:
+      "A Production grade bookamrk app with full authentication system using email services and google login",
+    image: "/projects/project3.png",
+    tags: ["MERN", "Emails", "Passport.js"],
+    demoUrl: "https://webbook-yuv.onrender.com",
+    githubUrl: "https://github.com/18yuv/webBook",
+  },
+  {
+    id: 2,
     title: "Workout Tracker",
     description: "A beautiful 30 days workout tracker built using reactjs",
     image: "/projects/project1.png",
-    tags: ["React", "CSS library", "Deployment"],
+    tags: ["React", "CSS libraries", "Deployment"],
     demoUrl: "https://30dayworkout.netlify.app/",
     githubUrl: "https://github.com/18yuv/brogram",
   },
   {
-    id: 2,
+    id: 3,
     title: "Authentication System",
     description:
       "Full-Stack Authentication system using the MERN stack.",
@@ -19,16 +29,6 @@ const projects = [
     tags: ["MERN", "JWT", "Render"],
     demoUrl: "https://auth-1-gw9t.onrender.com",
     githubUrl: "https://github.com/18yuv/auth",
-  },
-  {
-    id: 3,
-    title: "Bookmark Manager",
-    description:
-      "An ongoing bookmark manager project with full authentication functionality using nodemailer and passport.js",
-    image: "/projects/project3.png",
-    tags: ["MERN", "Nodemailer", "Passport.js"],
-    demoUrl: "https://github.com/18yuv/webBook",
-    githubUrl: "https://github.com/18yuv/webBook",
   },
 ];
 
